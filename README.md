@@ -33,6 +33,29 @@ I document real investigations end to end, including the wrong turns — because
 
 <br/>
 
+## 🗺️ Skill Map
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '15px'}, 'flowchart': {'nodeSpacing': 30, 'rankSpacing': 44, 'padding': 10}}}%%
+flowchart TB
+    ME(("🧑‍💻<br/>Malaika Azhar")):::me --> SOC["🛡️ SOC & Blue Team"]:::soc
+    ME --> NET["🌐 Network Engineering"]:::net
+    SOC --> SIEM["📊 SIEM & Triage<br/>Splunk, Wazuh"]:::leaf
+    SOC --> TI["🎯 Threat Intel<br/>ATT&CK, D3FEND"]:::leaf
+    SOC --> DFIR["🔎 DFIR<br/>Windows + Linux + Network"]:::leaf
+    SOC --> OFF["🗝️ Offensive Basics<br/>Nmap, GTFOBins"]:::leaf
+    NET --> RS["🔀 Routing & Switching<br/>Cisco IOS, VTP"]:::leaf
+    NET --> VLAN["🧩 Segmentation<br/>VLANs, ACLs"]:::leaf
+    NET --> SEC["🔐 Secure Access<br/>SSH, Port Security"]:::leaf
+    classDef me fill:#1B2A4A,stroke:#0B1A33,stroke-width:2px,color:#FFFFFF
+    classDef soc fill:#943126,stroke:#571C16,stroke-width:2px,color:#FFFFFF
+    classDef net fill:#1A5276,stroke:#0B2E43,stroke-width:2px,color:#FFFFFF
+    classDef leaf fill:#5B2C6F,stroke:#3B1A48,stroke-width:2px,color:#FFFFFF
+    linkStyle default stroke:#2C3E50,stroke-width:2px
+```
+
+<br/>
+
 ## 🛡️ SOC & Blue Team Toolkit
 
 <table>
@@ -144,12 +167,16 @@ I document real investigations end to end, including the wrong turns — because
 
 ## 🧭 Current Learning Path
 
-- [x] 3 Months Hands-On SOC Experience (Blue Team Internship)
-- [x] Cisco IOS Labs — Routing, Switching, VLANs, ACLs
-- [x] SIEM & Log Correlation Fundamentals
-- [ ] SOC Analyst Interview Readiness *(in progress)*
-- [ ] Advanced DFIR (Windows & Linux)
-- [ ] SIEM & Monitoring Tools at Scale
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '15px'}, 'timeline': {'disableMulticolor': false}}}%%
+timeline
+    title The Journey So Far — and What's Next
+    Foundations : Networking fundamentals : Cisco IOS labs — routing, switching, VLANs, ACLs
+    Blue Team Start : 3 months hands-on SOC : Blue Team internship — Wazuh, SOC foundations
+    Applied Labs : SIEM triage, DFIR, threat mapping : Network & vulnerability assessment
+    Now : SOC analyst interview readiness
+    Next : Advanced DFIR : SIEM & monitoring at scale
+```
 
 <br/>
 
