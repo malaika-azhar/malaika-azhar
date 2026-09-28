@@ -24,6 +24,8 @@ During my Blue Team internship I built a working detection setup: Wazuh SIEM, Su
 
 ## 🏅 Certifications
 
+I earned the **Certified Ethical Hacker (C|EH)** credential from EC-Council in September 2026. It sits alongside Cisco's Introduction to Cybersecurity and IBM's Cybersecurity Fundamentals. The credential can be checked on EC-Council's verification page with the certificate number below.
+
 <div align="center">
 
 <a href="https://aspen.eccouncil.org/Verify">
@@ -41,6 +43,8 @@ During my Blue Team internship I built a working detection setup: Wazuh SIEM, Su
 
 ## 📈 Internship Results
 
+Results from my 12-week Blue Team internship: I documented every week in a report, loaded a URLhaus feed of 20,000+ malicious URLs into Wazuh, and mapped detections across 6 MITRE ATT&CK tactics. After patching openssh on a monitored endpoint, I re-scanned to confirm the findings on that package dropped from 30 to 6.
+
 <div align="center">
 
 ![Reports](https://img.shields.io/badge/Weekly_Reports-12_Documented-943126?style=for-the-badge)
@@ -53,6 +57,8 @@ During my Blue Team internship I built a working detection setup: Wazuh SIEM, Su
 <br/>
 
 ## 🧱 Lab Architecture
+
+My lab is built around a Wazuh Manager that collects events from an Ubuntu server, a Windows host, a Suricata IDS on Kali Linux and a pfSense firewall. Threat intelligence from URLhaus and VirusTotal is added on top, and the alerts end up on a SOC dashboard.
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'fontSize': '13px'}, 'flowchart': {'nodeSpacing': 18, 'rankSpacing': 30, 'padding': 8}}}%%
@@ -83,6 +89,8 @@ flowchart LR
 ```
 
 ### Network Map
+
+All lab machines sit in one internal network behind the pfSense firewall.
 
 <div align="center">
 <img src="./assets/network-map.png" width="55%" alt="Lab network map: Internet, pfSense firewall and internal lab network" />
@@ -137,6 +145,8 @@ Screenshots from my Wazuh lab: custom rules, File Integrity Monitoring and a SOC
 
 ## 🗓️ Journey
 
+I started with Cisco networking labs, moved into Blue Team work during my internship, and closed this period with the CEH certification and my first open source pull request.
+
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'fontSize': '15px'}}}%%
 timeline
@@ -154,6 +164,8 @@ timeline
 <br/>
 
 ## 🛠️ Skills
+
+My main focus is SIEM monitoring, detection rules and digital forensics, supported by networking and firewall knowledge.
 
 <div align="center">
 
@@ -189,6 +201,12 @@ timeline
 </div>
 
 Pull request to Uptime Kuma fixing drag-and-drop of monitors out of a group hierarchy.
+
+<br/>
+
+## 🎯 Career Goal
+
+I am looking for a **SOC Analyst (Blue Team)** or **Network/NOC Engineer** role where I can keep building detection and investigation skills on real systems.
 
 <br/>
 
