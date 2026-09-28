@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./banner.png" alt="Malaika Azhar - Aspiring SOC Analyst | Blue Team" width="100%" />
+<a href="https://www.linkedin.com/in/malaika-azhar-tech">
+  <img src="./banner.png" alt="Malaika Azhar - Aspiring SOC Analyst | Blue Team" width="100%" />
+</a>
 
 <br/>
 
