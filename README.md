@@ -41,7 +41,7 @@ Every project in my repositories is backed by screenshot evidence, including the
 
 <div align="center">
 
-![Rules](https://img.shields.io/badge/Custom_Suricata_Rules-4-943126?style=for-the-badge)
+![Reports](https://img.shields.io/badge/Weekly_Reports-12_Documented-943126?style=for-the-badge)
 ![Feed](https://img.shields.io/badge/Threat_Feed-20%2C000%2B_URLs-1A5276?style=for-the-badge)
 ![MITRE](https://img.shields.io/badge/MITRE_ATT%26CK-6_Tactics_Mapped-5B2C6F?style=for-the-badge)
 ![CVE](https://img.shields.io/badge/Findings_After_Patch-30_→_6-2ea44f?style=for-the-badge)
@@ -100,6 +100,11 @@ Screenshots from my Wazuh lab (Ubuntu agent, custom rules and File Integrity Mon
 </td>
 </tr>
 </table>
+
+<div align="center">
+<img src="./assets/soc-dashboard-alert-timeline.png" alt="SOC dashboard alert timeline in Wazuh" width="60%" />
+<br/><sub><b>SOC dashboard:</b> alert volume over time, built in Wazuh</sub>
+</div>
 
 <br/>
 
