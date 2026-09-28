@@ -16,7 +16,9 @@
 
 ## 👩‍💻 About
 
-BSCS student (2027) targeting **SOC Analyst and Blue Team roles**. I built a working detection lab with Wazuh, Suricata and pfSense, and every project is backed by screenshots.
+BSCS student (Virtual University of Pakistan, 2027) targeting **SOC Analyst and Blue Team roles**.
+
+During my Blue Team internship I built a working detection setup: Wazuh SIEM, Suricata IDS, a pfSense firewall and live threat intelligence feeds. Every project in my repositories is backed by screenshot evidence, including the failed attempts.
 
 <br/>
 
@@ -53,7 +55,7 @@ BSCS student (2027) targeting **SOC Analyst and Blue Team roles**. I built a wor
 ## 🧱 Lab Architecture
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '15px'}, 'flowchart': {'nodeSpacing': 35, 'rankSpacing': 50}}}%%
+%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '13px'}, 'flowchart': {'nodeSpacing': 18, 'rankSpacing': 30, 'padding': 8}}}%%
 flowchart LR
     subgraph SRC["Log Sources"]
         UA["🐧 Ubuntu agent"]:::src
@@ -82,61 +84,54 @@ flowchart LR
 
 ### Network Map
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '15px'}, 'flowchart': {'nodeSpacing': 40, 'rankSpacing': 55}}}%%
-flowchart TB
-    NET(("🌐 Internet")):::ext
-    subgraph LAN["Internal Lab Network"]
-        FW["🔥 pfSense Firewall<br/>WAN and LAN gateway"]:::fw
-        WM["🛡️ Wazuh Manager<br/>Indexer + Dashboard"]:::core
-        KA["🔎 Kali Linux VM<br/>Suricata IDS"]:::src
-        UB["🐧 Ubuntu Server<br/>Wazuh agent"]:::src
-        WN["🪟 Windows host<br/>Wazuh agent"]:::src
-    end
-    NET --- FW
-    FW --- WM
-    FW --- KA
-    FW --- UB
-    FW --- WN
-    classDef ext fill:#2C3E50,stroke:#1B2631,stroke-width:2px,color:#FFFFFF
-    classDef fw fill:#212121,stroke:#000000,stroke-width:2px,color:#FFFFFF
-    classDef core fill:#943126,stroke:#571C16,stroke-width:2px,color:#FFFFFF
-    classDef src fill:#1A5276,stroke:#0B2E43,stroke-width:2px,color:#FFFFFF
-```
+<div align="center">
+<img src="./assets/network-map.png" width="55%" alt="Lab network map: Internet, pfSense firewall and internal lab network" />
+</div>
 
 <br/>
 
 ## 🔍 Detection Evidence
 
+Screenshots from my Wazuh lab: custom rules, File Integrity Monitoring and a SOC dashboard.
+
 <table>
 <tr>
 <td width="50%" align="center">
 <img src="./assets/wazuh-custom-rule-100001.png" alt="Custom Wazuh rule 100001 firing on new user creation" />
-<br/><sub><b>Custom rule:</b> new user created</sub>
+<br/><sub><b>Custom rule 100001:</b> alert fires when a new Linux user account is created</sub>
 </td>
 <td width="50%" align="center">
 <img src="./assets/wazuh-fim-alerts.png" alt="Wazuh File Integrity Monitoring alerts for a test file" />
-<br/><sub><b>File Integrity Monitoring:</b> file changes detected</sub>
+<br/><sub><b>File Integrity Monitoring:</b> file added, modified and deleted events detected</sub>
 </td>
 </tr>
 </table>
 
 <div align="center">
 <img src="./assets/soc-dashboard-alert-timeline.png" alt="SOC dashboard alert timeline in Wazuh" width="60%" />
-<br/><sub><b>SOC dashboard:</b> alert volume over time</sub>
+<br/><sub><b>SOC dashboard:</b> alert volume over time, built in Wazuh</sub>
 </div>
 
 <br/>
 
 ## 🧪 Featured Projects
 
-<div align="center">
-
-<a href="https://github.com/malaika-azhar/Cybersecurity-Lab-Projects"><img src="./assets/card-security.png" width="32%" alt="Cybersecurity Lab Projects" /></a>
-<a href="https://github.com/malaika-azhar/Cisco-Networking-Lab-Portfolio"><img src="./assets/card-cisco.png" width="32%" alt="Cisco Networking Lab Portfolio" /></a>
-<a href="https://github.com/malaika-azhar/Real-World-Tier2-Support-Projects"><img src="./assets/card-support.png" width="32%" alt="Real-World Tier-2 Support Projects" /></a>
-
-</div>
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+<a href="https://github.com/malaika-azhar/Cybersecurity-Lab-Projects"><img src="./assets/card-security.png" alt="Cybersecurity Lab Projects" /></a>
+<br/><sub>SOC, SIEM triage, DFIR, malware analysis, threat mapping</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<a href="https://github.com/malaika-azhar/Cisco-Networking-Lab-Portfolio"><img src="./assets/card-cisco.png" alt="Cisco Networking Lab Portfolio" /></a>
+<br/><sub>VLANs, OSPF/EIGRP, ACLs, IPsec VPN, port security</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<a href="https://github.com/malaika-azhar/Real-World-Tier2-Support-Projects"><img src="./assets/card-support.png" alt="Real-World Tier-2 Support Projects" /></a>
+<br/><sub>osTicket helpdesk on Azure, SPF/DKIM/DMARC audit, Wireshark fault analysis</sub>
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -149,6 +144,12 @@ timeline
     2026 Jun to Sep : Blue Team Internship : Wazuh, Suricata, DFIR
     2026 Sep : CEH certified : Open source pull request
 ```
+
+**Cybersecurity Intern, Blue Team** · Cyberster · Jun 2026 to Sep 2026
+- Deployed a Wazuh SIEM with File Integrity Monitoring and custom detection rules on Ubuntu and Windows endpoints.
+- Wrote and tested Suricata IDS rules, and integrated the alerts into Wazuh.
+- Added threat intelligence feeds (VirusTotal, URLhaus, MITRE ATT&CK) to the SIEM.
+- Did malware analysis and digital forensics: disk imaging, Prefetch, registry and timeline correlation.
 
 <br/>
 
@@ -171,6 +172,12 @@ timeline
 
 </div>
 
+| Area | Tools and topics |
+|---|---|
+| SIEM and detection | Wazuh, Suricata, Splunk, MITRE ATT&CK, D3FEND |
+| Forensics and malware | Autopsy, Sleuth Kit, Prefetch, registry, ANY.RUN, VirusTotal |
+| Network security | pfSense, Cisco IOS, Wireshark, ACLs, VPN |
+
 <br/>
 
 ## 🤝 Open Source
@@ -180,3 +187,11 @@ timeline
 [![Uptime Kuma](https://img.shields.io/badge/Uptime_Kuma-Pull_Request-5CDD8B?style=for-the-badge&logo=uptimekuma&logoColor=black)](https://github.com/louislam/uptime-kuma/pulls?q=author%3Amalaika-azhar)
 
 </div>
+
+Pull request to Uptime Kuma fixing drag-and-drop of monitors out of a group hierarchy.
+
+<br/>
+
+## 📬 Contact
+
+[LinkedIn](https://www.linkedin.com/in/malaika-azhar-tech) · [malaikawork21@gmail.com](mailto:malaikawork21@gmail.com)
