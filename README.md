@@ -5,14 +5,32 @@
 <br/><br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=1A5276&center=true&vCenter=true&width=600&lines=I+am+Malaika+Azhar;SOC+Analyst+%7C+Blue+Team;Network+%26+Security+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=1A5276&center=true&vCenter=true&width=700&lines=I+am+Malaika+Azhar;Aspiring+SOC+Analyst+%7C+Blue+Team;CEH+Certified+%7C+Cisco+Networking" alt="Typing SVG" />
 </a>
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/malaika-azhar-tech)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/malaika-azhar)
-![Experience](https://img.shields.io/badge/SOC_Experience-3_Months_Hands--On-2ea44f?style=for-the-badge)
+![Experience](https://img.shields.io/badge/Blue_Team_Internship-3_Months_Hands--On-2ea44f?style=for-the-badge)
+
+</div>
+
+<br/>
+
+## 🏅 Certifications
+
+<div align="center">
+
+<a href="YOUR_VERIFICATION_LINK">
+  <img src="./certs/ceh-badge.png" alt="Certified Ethical Hacker (C|EH) - EC-Council" width="130" />
+</a>
+
+**Certified Ethical Hacker (C|EH)** · EC-Council · Issued September 2026
+[Verify credential →](YOUR_VERIFICATION_LINK)
+
+![Cisco](https://img.shields.io/badge/Cisco-Cybersecurity-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
+![IBM](https://img.shields.io/badge/IBM-Cybersecurity_Fundamentals-052FAD?style=flat-square&logo=ibm&logoColor=white)
 
 </div>
 
@@ -21,15 +39,17 @@
 ## 🧠 About Me
 
 ```yaml
-role:        SOC Analyst | Blue Team | Network Engineer
-experience:  3 months hands-on SOC (Blue Team Internship)
+role:        Aspiring SOC Analyst | Blue Team | Network Engineering
+education:   BSCS, Virtual University of Pakistan (2027)
+experience:  Blue Team Internship (SOC operations, SIEM)
+certified:   CEH (EC-Council), Cisco Cybersecurity, IBM Cybersecurity Fundamentals
 focus:       ["SIEM & Alert Triage", "DFIR", "Threat Intel", "Cisco Networking"]
 philosophy:  "I learn by building real systems, not just reading theory."
 ```
 
-I'm a **SOC Analyst** with **3 months of hands-on SOC experience**, working across Blue Team operations, digital forensics, and network infrastructure. My background pairs practical **security operations** — SIEM triage, log correlation, threat framework mapping — with solid **Cisco networking** fundamentals: routing, switching, VLANs, and access control.
+I'm a computer science student building a career in **SOC and Blue Team work**. My projects cover SIEM triage, log correlation, digital forensics and threat framework mapping, backed by **Cisco networking** basics: routing, switching, VLANs and access control.
 
-I document real investigations end to end, including the wrong turns — because that's what the job actually looks like.
+I document real investigations end to end, including the wrong turns, because that's what the job actually looks like.
 
 <br/>
 
@@ -74,7 +94,7 @@ flowchart TB
 
 **Windows Forensics**
 - Security Event Log analysis
-- Prefetch analysis — `EvtxECmd`, `PECmd`
+- Prefetch analysis: `EvtxECmd`, `PECmd`
 
 </td>
 <td valign="top" width="50%">
@@ -84,7 +104,7 @@ flowchart TB
 - Multi-source attacker timeline correlation
 
 **Network Forensics**
-- Wireshark — full attack-chain reconstruction
+- Wireshark: full attack-chain reconstruction
 - Plaintext protocol credential extraction
 
 **Offensive Fundamentals**
@@ -159,9 +179,15 @@ flowchart TB
 | 💥 Vulnerability Assessment | Black-box pentest: recon → foothold → root | Nmap, GTFOBins |
 | 🏢 Enterprise VLAN Routing | VTP-synced VLANs, hardened & ACL-filtered | Packet Tracer |
 
-**[📂 See all labs →](https://github.com/malaika-azhar)**
+**[📂 See all labs →](https://github.com/malaika-azhar/Cybersecurity-Lab-Projects)**
 
 </div>
+
+<br/>
+
+## 🤝 Open Source
+
+- **[Uptime Kuma](https://github.com/louislam/uptime-kuma):** pull request [#7881](https://github.com/louislam/uptime-kuma/pull/7881), fixing drag-and-drop so a monitor can be moved out of a group hierarchy (`MonitorListItem.vue`).
 
 <br/>
 
@@ -170,10 +196,11 @@ flowchart TB
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'fontSize': '15px'}, 'timeline': {'disableMulticolor': false}}}%%
 timeline
-    title The Journey So Far — and What's Next
-    Foundations : Networking fundamentals : Cisco IOS labs — routing, switching, VLANs, ACLs
-    Blue Team Start : 3 months hands-on SOC : Blue Team internship — Wazuh, SOC foundations
+    title The Journey So Far, and What's Next
+    Foundations : Networking fundamentals : Cisco IOS labs (routing, switching, VLANs, ACLs)
+    Blue Team Start : Blue Team internship : Wazuh, SOC foundations
     Applied Labs : SIEM triage, DFIR, threat mapping : Network & vulnerability assessment
+    Certified : CEH (EC-Council), September 2026
     Now : SOC analyst interview readiness
     Next : Advanced DFIR : SIEM & monitoring at scale
 ```
@@ -197,7 +224,7 @@ timeline
 
 ## 🎯 Career Goal
 
-Building a career as a **SOC Analyst (Blue Team)** or **Network/NOC Engineer** — grounded in 3 months of real SOC experience, hands-on investigation, and hardened networking labs rather than theory alone.
+Building a career as a **SOC Analyst (Blue Team)** or **Network/NOC Engineer**, grounded in hands-on investigation, hardened networking labs and a CEH certification rather than theory alone.
 
 <br/>
 
