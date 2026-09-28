@@ -26,11 +26,11 @@ Every project in my repositories is backed by screenshot evidence, including the
 
 <div align="center">
 
-<a href="YOUR_VERIFICATION_LINK">
+<a href="https://aspen.eccouncil.org/Verify">
   <img src="./certs/ceh-badge.png" alt="Certified Ethical Hacker (C|EH) - EC-Council" width="140" />
 </a>
 
-**Certified Ethical Hacker (C|EH)** · EC-Council · September 2026 · [Verify credential →](YOUR_VERIFICATION_LINK)
+**Certified Ethical Hacker (C|EH)** · EC-Council · September 2026 · Certificate No. `ECC7025643981` · [Verify credential →](https://aspen.eccouncil.org/Verify)
 
 ![Cisco](https://img.shields.io/badge/Cisco-Introduction_to_Cybersecurity-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 ![IBM](https://img.shields.io/badge/IBM-Cybersecurity_Fundamentals-052FAD?style=flat-square)
