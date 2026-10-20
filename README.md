@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://www.linkedin.com/in/malaika-azhar-tech">
-  <img src="./banner.png" alt="Malaika Azhar - Aspiring SOC Analyst | Networking · Linux · Support" width="100%" />
+  <img src="./banner.png" alt="Malaika Azhar - SOC &amp; Blue Team | Networking · Linux · Azure · Support" width="100%" />
 </a>
 
 <br/>
