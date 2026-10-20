@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://www.linkedin.com/in/malaika-azhar-tech">
-  <img src="./banner.png" alt="Malaika Azhar - Aspiring SOC Analyst | Blue Team" width="100%" />
+  <img src="./banner.png" alt="Malaika Azhar - Aspiring SOC Analyst | Networking · Linux · Support" width="100%" />
 </a>
 
 <br/>
@@ -16,7 +16,7 @@
 
 ## 👩‍💻 About
 
-BSCS student (Virtual University of Pakistan, 2027) targeting **SOC Analyst and Blue Team roles**.
+I am targeting **SOC Analyst and Blue Team roles**.
 
 During my Blue Team internship I built a working detection setup: Wazuh SIEM, Suricata IDS, a pfSense firewall and live threat intelligence feeds. Every project in my repositories is backed by screenshot evidence, including the failed attempts.
 
@@ -143,6 +143,12 @@ Screenshots from my Wazuh lab: custom rules, File Integrity Monitoring and a SOC
 <br/><sub>Ticket simulations, troubleshooting flowcharts, solution guides, escalation scripts</sub>
 </td>
 </tr>
+<tr>
+<td width="25%" align="center" valign="top">
+<a href="https://github.com/malaika-azhar/Linux-SysAdmin-Labs"><img src="./assets/card-linux.png" alt="Linux SysAdmin Labs" /></a>
+<br/><sub>Backup/restore, Nginx TLS, SSH hardening, BIND9 DNS, user offboarding, monitoring on Azure Ubuntu</sub>
+</td>
+</tr>
 </table>
 
 <br/>
@@ -193,6 +199,7 @@ My main focus is SIEM monitoring, detection rules and digital forensics, support
 | SIEM and detection | Wazuh, Suricata, Splunk, MITRE ATT&CK, D3FEND |
 | Forensics and malware | Autopsy, Sleuth Kit, Prefetch, registry, ANY.RUN, VirusTotal |
 | Network security | pfSense, Cisco IOS, Wireshark, ACLs, VPN |
+| Linux and systems | Ubuntu on Azure VM, Nginx TLS, BIND9 DNS, SSH hardening, backup/restore, monitoring |
 
 <br/>
 
