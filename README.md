@@ -29,7 +29,7 @@ I am studying Computer Science at Virtual University of Pakistan (expected 2027)
 <table>
 <tr>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/malaika-azhar/Cloud-Infrastructure-Engineering"><b>☁️ Cloud Infrastructure Engineering</b></a>
+<a href="https://github.com/malaika-azhar/Cloud-Infrastructure-Engineering"><img src="./assets/card-cloud.png" alt="Cloud Infrastructure Engineering" /></a>
 <br/><sub>6 Azure projects: VM, networking, storage, Entra ID and RBAC, Monitor and KQL, Load Balancer</sub>
 </td>
 <td width="33%" align="center" valign="top">
