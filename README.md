@@ -30,25 +30,25 @@ I am studying Computer Science at Virtual University of Pakistan (expected 2027)
 <tr>
 <td width="33%" align="center" valign="top">
 <a href="https://github.com/malaika-azhar/Cloud-Infrastructure-Engineering"><img src="./assets/card-cloud.png" alt="Cloud Infrastructure Engineering" /></a>
-<br/><sub>6 Azure projects: VM, networking, storage, Entra ID and RBAC, Monitor and KQL, Load Balancer</sub>
+<br/><sub>Cloud infrastructure projects: virtual machines, networking, storage, identity and access, monitoring, load balancing</sub>
 </td>
 <td width="33%" align="center" valign="top">
 <a href="https://github.com/malaika-azhar/Linux-SysAdmin-Labs"><img src="./assets/card-linux.png" alt="Linux SysAdmin Labs" /></a>
 <br/><sub>Backup/restore, Nginx TLS, SSH hardening, BIND9 DNS, user offboarding, monitoring on Azure Ubuntu</sub>
 </td>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/malaika-azhar/Cisco-Networking-Lab-Portfolio"><img src="./assets/card-cisco.png" alt="Cisco Networking Lab Portfolio" /></a>
-<br/><sub>26 labs: VLANs, OSPF/EIGRP, ACLs, IPsec VPN, port security, Samba4 AD</sub>
+<a href="https://github.com/malaika-azhar/Cybersecurity-Lab-Projects"><img src="./assets/card-security.png" alt="Cybersecurity Lab Projects" /></a>
+<br/><sub>SOC, SIEM triage, DFIR, malware analysis, threat mapping</sub>
 </td>
 </tr>
 <tr>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/malaika-azhar/Real-World-Tier2-Support-Projects"><img src="./assets/card-support.png" alt="Real-World Tier-2 Support Projects" /></a>
-<br/><sub>osTicket helpdesk on Azure, SPF/DKIM/DMARC audit, Wireshark fault analysis</sub>
+<a href="https://github.com/malaika-azhar/Cisco-Networking-Lab-Portfolio"><img src="./assets/card-cisco.png" alt="Cisco Networking Lab Portfolio" /></a>
+<br/><sub>26 labs: VLANs, OSPF/EIGRP, ACLs, IPsec VPN, port security, Samba4 AD</sub>
 </td>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/malaika-azhar/Cybersecurity-Lab-Projects"><img src="./assets/card-security.png" alt="Cybersecurity Lab Projects" /></a>
-<br/><sub>SOC, SIEM triage, DFIR, malware analysis, threat mapping</sub>
+<a href="https://github.com/malaika-azhar/Real-World-Tier2-Support-Projects"><img src="./assets/card-support.png" alt="Real-World Tier-2 Support Projects" /></a>
+<br/><sub>osTicket helpdesk on Azure, SPF/DKIM/DMARC audit, Wireshark fault analysis</sub>
 </td>
 <td width="33%" align="center" valign="top">
 <a href="https://github.com/malaika-azhar/customer-tech-support-portfolio"><img src="./assets/card-customer-support.png" alt="Customer Technical Support Portfolio" /></a>
